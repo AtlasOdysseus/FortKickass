@@ -1,0 +1,62 @@
+body{
+    background-image: url("http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2015/10/montypyhton-1600x720.jpg");
+    font-family: "Courier";
+}
+
+h1{
+    text-align: center;
+    color: red;
+
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    color: orange;
+    vertical-align: text-top;
+    font-size: 32px;
+
+}
+
+h3{
+    
+}
+
+table{
+    font-size: 18px;
+        font-weight: bold;
+        display: block;
+        border-style: dashed;
+}
+
+img{
+    vertical-align: text-top;
+}
+h1:hover{
+    background-color: yellow;
+}
+
+a:visited{
+    color: orange;
+}
+p:first-of-type{
+    background: green;
+}
+
+p:nth-child(2){
+    color: red;
+}
+@keyframes changeLocation{
+    from{top: 0px}
+    to {top 100px}
+}
+
+h2:hover{
+
+    -webkit-animation-name: changeLocation;
+    -webkit-animation-duration: 4s;
+    animation-name: changeLocation;
+    animation-duration: 4s;
+    back
+}
+
